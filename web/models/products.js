@@ -55,7 +55,7 @@ const Product = DB.define('products', {
 
 async function syncDatabase() {
   try {
-    await DB.sync({ force: true });
+    await DB.sync();
     console.log("Database synchronized successfully.");
   } catch (error) {
     console.error('Failed to synchronize the database:', error);

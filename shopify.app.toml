@@ -3,7 +3,7 @@
 client_id = "9ecd290b810eafcb26c39982a024f55a"
 name = "product-listing"
 handle = "product-listing-18"
-application_url = "https://grade-thank-super-height.trycloudflare.com"
+application_url = "https://build-dogs-ceremony-norway.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://grade-thank-super-height.trycloudflare.com/auth/callback",
-  "https://grade-thank-super-height.trycloudflare.com/auth/shopify/callback",
-  "https://grade-thank-super-height.trycloudflare.com/api/auth/callback"
+  "https://build-dogs-ceremony-norway.trycloudflare.com/auth/callback",
+  "https://build-dogs-ceremony-norway.trycloudflare.com/auth/shopify/callback",
+  "https://build-dogs-ceremony-norway.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
